@@ -36,40 +36,21 @@
             display: flex;
             flex-direction: row-reverse;
         }
-        .relative{
-            position: relative;
-            top: 20px;
-            left: 20px;
-        }
-        .adsolute{
-            position: absolute;
-            top: 0px;
-            right: 0px;
-        }
-        .fixed{
-            position: fixed;
-            top: 0px;
-            right: 0px;
-        }
-        .sticky{
-            position: sticky;
-            top: 10px;
-            right: 50px;
-        }
-        .container{
-            height: 1800px;
+        .image{
+            background-image: url('https://picsum.photos/seed/picsum/200/300');
+            height: 200px;
+            width: 200px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: top right;
         }
     </style>
 </head>
 <body>
     <!--from-->
-    <div class="container">
-        <div>Static</div>
-        <div class="relative">Relative</div>
-        <div class="adsolute">Adsolute</div>
-        <div class="fixed">Fixed</div>
-        <div class="sticky">Sticky</div>
-    </div>
+    <div class="image">ทดสอบ</div>
+
+
     <div id="register">register from</div>
     <span class="header-from">ชื่อ</span> 
     <input class="From" type="text">
