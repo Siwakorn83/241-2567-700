@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="Hello">Hello <span style="display: none;"> Pao </span></div>
+    <script>
+        let helloDOM = document.getElementById('Hello');
+        console.log(helloDOM.textContent);//แสดงทั้งหมด
+        console.log(helloDOM.innerText);//แสดงที่มองเห็นเท่า่นั้น
+        console.log(helloDOM.innerHTML);//ดึง html ภายใต้ element นั้นออกมาทั้งหมด
+    </script>
+</body>
+</html>
