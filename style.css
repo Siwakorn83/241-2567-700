@@ -55,7 +55,6 @@ textarea {
 .message {
     margin-top: 20px;
     padding: 10px;
-    background-color:rgb(224, 255, 19);
     display: none;
 }
 .message.success {
